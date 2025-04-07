@@ -35,10 +35,10 @@ for _ in range(N):
     action_p2 = np.random.choice(best_actions_p2) # Pick random in case of ties
     
     # Uncomment the section below for breaking the ties as R>P>S
-    
+    '''
     action_p1 = min(best_actions_p1)  # Favor R > P > S for 1st player
     action_p2 = min(best_actions_p2)  # Favor R > P > S for 2nd player
-    
+    '''
     
     # Update counts
     counts_p1[action_p2] += 1
